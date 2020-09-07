@@ -1,9 +1,10 @@
 h1 {
-    color: aqua;
+    color: blue;
+    text-align: center;
 }
 
 .header{
-    background-color: darkcyan;
+    background-color:  #05ffc9;
     display:flex;
     justify-content: space-between;
 }
@@ -15,6 +16,21 @@ h1 {
 }
 
 .item{
+    display: grid;
     color: blue;
     justify-content: space-evenly;
+}
+
+.item1{
+    display: grid;
+    color: blue;
+    justify-content: space-evenly;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    background-color: #05ffc9;
 }
