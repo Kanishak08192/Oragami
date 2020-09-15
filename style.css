@@ -15,17 +15,6 @@ h1 {
     justify-content: space-evenly;
 }
 
-.item{
-    display: grid;
-    color: blue;
-    justify-content: space-evenly;
-}
-
-.item1{
-    display: grid;
-    color: blue;
-    justify-content: space-evenly;
-}
 
 p{
     text-align: center;
@@ -33,4 +22,24 @@ p{
 
 body{
     background-color: #05ffc9;
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,+50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.45;
 }
